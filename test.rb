@@ -1,3 +1,8 @@
 puts "Entre un chiffre"
 chiffre =gets.chomp.to_i
-adviner = 15
+if !chiffre.even?
+  puts "#{chiffre} est impaire"
+else
+  puts "#{chiffre} est paire "
+
+end
